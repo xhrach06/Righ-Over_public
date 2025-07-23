@@ -1,32 +1,43 @@
-# Application Info
+# 🥘 Right-Over – Smart Recipe Finder Based on Ingredients
 
-A project for User Interface course.
+**Right-Over** is a web application that helps users find recipes based on the ingredients they already have at home. By entering available ingredients, kitchen equipment, and nutritional preferences, users get personalized recipe suggestions.
 
-# Notes
+The project combines a **React frontend** with a **Django REST API backend** and includes a sample dataset for demonstration purposes.
 
-## TO-DO
+---
 
--
+## 🚀 Features
 
-## Commands
+- Input ingredients, equipment, and nutrition filters
+- Get only recipes you can actually cook
+- Responsive and user-friendly interface
+- REST API for backend data handling
+- Pre-loaded demo data (SQLite)
 
-- Make migrations: python manage.py makemigrations
-- Apply migrations: python manage.py migrate
-- Run server: python manage.py runserver
-- Create Django admin: python manage.py createsuperuser
-- Install Django: pip install django
-- Install coresheaders: pip install django-cors-headers
-- Install Django Rest framework: pip install djangorestframework
-- Install whitenoise: pip install whitenoise
-- Collect Static Files: python manage.py collectstatic
-- Add demo data to database: sqlite3 db.sqlite3 < data.sql
-- Build frontend commands:
-  npm install
-  ? npm audit fix
-  npm run dev
+---
 
-- For development run Django and React in two separate terminals
+## 🛠 Technologies Used
 
-## Tips
+- **Frontend:** React, JavaScript
+- **Backend:** Django, Django REST Framework
+- **Database:** SQLite
+- **Other:** WhiteNoise, CORS, Docker (for internal dev)
 
-- To add items to a database create Django admin and go to IP:port/admind domain, fill name and password you have created. You can add items by pressing the add buttonpip
+---
+
+## ⚙️ Installation & Run Guide
+
+### Backend – Django
+
+```bash
+# Install dependencies
+pip install django
+pip install django-cors-headers
+pip install djangorestframework
+pip install whitenoise
+
+# Setup and run
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
