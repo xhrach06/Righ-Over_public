@@ -1,0 +1,14 @@
+/* Author: Matej Hrachovec
+Login: xhrach06 */
+.my-ingredient-card .heading{
+    background-color: #99B080;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.my-ingredient-card{
+    background-color: #FAF8ED;
+    border-radius:10px;
+    padding-bottom: 5px;
+}

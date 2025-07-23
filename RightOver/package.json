@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mdb-react-ui-kit": "^7.0.0",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
+  }
+}

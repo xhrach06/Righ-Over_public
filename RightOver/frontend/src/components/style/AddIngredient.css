@@ -1,0 +1,35 @@
+/* Author: Matej Hrachovec
+Login: xhrach06 */
+.add-ingredient{
+    background-color: #FAF8ED;
+    padding-bottom:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow: auto;
+}
+.add-ingredient .CategoryCard{
+    border: 1px solid;
+    border-radius:10px;
+}
+.add-ingredient .heading{
+    background-color: #99B080;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.add-ingredient .categories{
+    padding: 10px;
+}
+.add-ingredient .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.add-ingredient .searchbar input:focus {
+    outline: none;
+    box-shadow: none;
+  }

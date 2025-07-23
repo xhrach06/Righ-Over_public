@@ -1,0 +1,35 @@
+/* Author: Matej Hrachovec
+Login: xhrach06 */
+.my-ingredient-row{
+    border: 1px solid;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #F9B572;
+}
+
+.my-ingredient-row ul li{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.my-ingredient-row ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+
+.my-ingredient-row button{
+    background-color: #99B080;
+    margin-top: 2px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 2px 24px;
+}
+
+.my-ingredient-row .buttons{
+    display: flex;
+    justify-content: center;
+}

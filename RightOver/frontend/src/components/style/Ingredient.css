@@ -1,0 +1,12 @@
+/* Author: Matej Hrachovec
+Login: xhrach06 */
+.background{
+    background-color: #99b080;
+    border-radius: 30px;
+    margin: 0;
+    padding: 10;
+}
+.background h2 {
+    margin: 0; 
+    padding: 0; 
+}

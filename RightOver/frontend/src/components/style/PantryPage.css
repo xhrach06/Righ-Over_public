@@ -1,0 +1,34 @@
+/* Author: Matej Hrachovec
+Login: xhrach06 */
+.container .text-center .pantry-page {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh; 
+  box-sizing: border-box;
+}
+
+.pantry-page{
+  padding-top: 20px;
+}
+
+.pantry-page > :first-child {
+  flex: 0 0 55%; 
+}
+
+.pantry-page > :last-child {
+  flex: 1; 
+  
+}
+
+.pantry-page .my-ingredients .CategoryCard .row.justify-content-center{
+  background-color: #99B080;
+}
+.whole-page{
+  display: flex;
+  flex-direction: column;
+}
+.bottom{
+  text-align: center;
+}

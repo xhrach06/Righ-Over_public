@@ -1,0 +1,64 @@
+/* Author: Matej Hrachovec
+Login: xhrach06 */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-content form {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+label input {
+  margin-left: 5px;
+  border: none; 
+  border-bottom: 1px solid #999; 
+}
+
+.buttons button {
+  background-color: #99B080;
+  margin-top: 2px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 2px 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.heading {
+  background-color: #99B080;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
