@@ -60,6 +60,11 @@ npm install
 npm audit fix
 npm run dev
 ```
+### Developed by:
+Michal Ondrejka
+Dominik Trúchly
+Matej Hrachovec
+```
 ## Screenshots
 <img width="754" height="271" alt="image" src="https://github.com/user-attachments/assets/71d8c4dd-c653-4561-90bf-ef5015a6388f" />
 <img width="758" height="275" alt="image" src="https://github.com/user-attachments/assets/d85441e1-662c-4151-b629-223b22c77f65" />
