@@ -41,3 +41,27 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+```
+
+## 📁 Static Files
+
+```bash
+python manage.py collectstatic
+```
+
+## 🗃️ Load Demo Data
+```bash
+sqlite3 db.sqlite3 < data.sql
+```
+
+## 💻 Frontend – React
+```bash
+npm install
+npm audit fix
+npm run dev
+```
+## Screenshots
+<img width="754" height="271" alt="image" src="https://github.com/user-attachments/assets/71d8c4dd-c653-4561-90bf-ef5015a6388f" />
+<img width="758" height="275" alt="image" src="https://github.com/user-attachments/assets/d85441e1-662c-4151-b629-223b22c77f65" />
+
+
